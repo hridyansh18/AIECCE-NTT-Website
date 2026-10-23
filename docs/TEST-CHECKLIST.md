@@ -1,0 +1,11 @@
+# Test checklist
+- [ ] All links work on all 9 pages; no console errors.
+- [ ] No horizontal scroll at 320, 375, 425, 768, 1024, 1440 px; hamburger works.
+- [ ] Empty submit shows inline errors; bad email, bad mobile, missing consent are blocked.
+- [ ] Placeholder URL: "not configured" message, form not reset.
+- [ ] Configured: valid submit shows loading, button disabled, then success with reference ID; form resets; email arrives with correct subject, timestamp, reference ID and all fields (check spam).
+- [ ] Reply-To of the email is the applicant's address.
+- [ ] Network off / wrong URL: error shown, entered data kept.
+- [ ] Temporarily set an invalid RECIPIENT_EMAIL or exhaust quota: error shown, data kept.
+- [ ] 4th submission with the same mobile within 10 minutes is refused.
+- [ ] `node tests/backend.test.js` passes.

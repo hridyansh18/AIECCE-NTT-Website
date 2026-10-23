@@ -1,0 +1,20 @@
+@media (max-width:1024px){.grid3{grid-template-columns:repeat(2,1fr)}.hgrid{grid-template-columns:1fr}.heroimg{max-width:420px;margin-inline:auto}}
+@media (max-width:860px){.burger{display:block}
+nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--navy);flex-direction:column;align-items:stretch;padding:12px 16px 20px}nav.open{display:flex}nav .btn{text-align:center;margin-top:8px}
+.grid2{grid-template-columns:1fr}}
+@media (max-width:640px){.grid3{grid-template-columns:1fr}#admForm{grid-template-columns:1fr;padding:16px}.sec{padding:40px 0}.hero{padding:36px 0}.brand span small{display:none}}
+@media (max-width:360px){.btn{padding:12px 16px}.brand{font-size:1rem}}
+
+.hgrid>*,.grid2>*,.grid3>*,.fgrid>*{min-width:0}
+.heroimg{width:100%;height:auto}
+h1,h2,h3,p,a{overflow-wrap:anywhere}
+@media (max-width:1024px){.fgrid{grid-template-columns:repeat(2,1fr);gap:28px}}
+@media (max-width:560px){.fgrid{grid-template-columns:1fr;gap:24px}.fb-in{flex-direction:column;align-items:center;text-align:center}.legal{text-align:center}.fbottom{padding-bottom:84px}.fbrand{font-size:1.05rem}}
+
+@media (max-width:1024px){.fgrid4{grid-template-columns:repeat(2,1fr)}.steps2{grid-template-columns:repeat(2,1fr)}.hero-art{margin-top:8px}}
+@media (max-width:860px){.split{grid-template-columns:1fr;gap:24px}.split.rev .photo{order:0}.gal{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.fgrid4,.steps2,.gal{grid-template-columns:1fr}.b1{left:-6px}.b2{right:-6px}.hero{padding:40px 0 48px}.hero-art{max-width:300px}.facts{padding:18px 0}.fact strong{font-size:1.1rem}}
+.b1{top:56%;left:-26px}.b2{bottom:auto;top:12%;right:-18px}@media (max-width:560px){.b1{left:-8px}.b2{right:-8px}}
+
+@media (max-width:1024px){.steps2.five{grid-template-columns:repeat(2,1fr)}.adm{grid-template-columns:1fr}.aside{position:static;grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.idcard{grid-template-columns:1fr}.steps2.five{grid-template-columns:1fr}.aside{grid-template-columns:1fr}.formcard{padding:18px 14px}.phero{padding:32px 0 36px}table.fee2 .rowh{width:auto}}

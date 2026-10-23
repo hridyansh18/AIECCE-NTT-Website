@@ -1,0 +1,12 @@
+#admForm{display:grid;grid-template-columns:repeat(2,1fr);gap:16px 20px;background:var(--bg);padding:24px;border-radius:var(--r);margin-top:12px}
+.f{display:flex;flex-direction:column;min-width:0}.full{grid-column:1/-1}
+.f label{font-weight:500;margin-bottom:4px;color:var(--navy)}
+input,select,textarea{font:inherit;padding:11px 12px;border:1.5px solid #b9c4e0;border-radius:10px;background:var(--white);width:100%;min-height:44px}
+input:focus,select:focus,textarea:focus{border-color:var(--blue)}
+.f.invalid input,.f.invalid select,.f.invalid textarea{border-color:#c62828}
+.err{color:#b71c1c;font-size:.85rem;min-height:1.2em}
+.chk label{display:flex;gap:10px;align-items:flex-start;font-weight:400}.chk input{width:22px;min-height:22px;margin-top:3px;flex:none}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+.status{padding:0;border-radius:10px}.status.show{padding:12px 16px}.status.loading{background:#e3ecff;color:var(--navy)}.status.ok{background:#e6f6ea;color:#1b5e20}.status.fail{background:#fdecea;color:#b71c1c}
+.chk label{display:block;position:relative;padding-left:34px;font-weight:400}
+.chk label input{position:absolute;left:0;top:2px;width:22px;min-height:22px;margin:0}
