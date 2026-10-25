@@ -10,4 +10,4 @@
    The recipient email address is set inside
    google-apps-script/Code.gs, not here.
    ========================================================== */
-const GOOGLE_SCRIPT_URL = "PASTE_YOUR_DEPLOYED_WEB_APP_URL_HERE";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby9ciI9KfV6LzR1oOwfceHMHG526zTfCNUK0A_bKD2XTlbJjeF7fRNvnMgBbPIeOgTj4A/exec";
