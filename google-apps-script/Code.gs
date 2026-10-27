@@ -13,7 +13,7 @@
  */
 
 /* ---------------- Configuration ---------------- */
-var RECIPIENT_EMAIL = 'kumawat_palak@yahoo.com'; // owner's email as provided
+var RECIPIENT_EMAIL = 'srntt.treasurefantasy@gmail.com'; // owner's email as provided
 var ORG_NAME = 'SR NTT Institute';
 
 var MIN_FILL_MS = 3000;         // faster submissions are treated as bots

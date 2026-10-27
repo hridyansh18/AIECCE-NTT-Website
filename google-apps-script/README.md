@@ -5,7 +5,7 @@
 ## Setup (done by the institution, signed in to the Google account that should send the emails)
 1. Go to script.google.com > **New project**. Name it "AIECCE Enquiry Mailer".
 2. Replace the default code with `Code.gs`.
-3. At the top, check `RECIPIENT_EMAIL` (currently `kumawat_palak@yahoo.com`, as provided by the owner). **Verify it with the institute and change it if needed.**
+3. At the top, check `RECIPIENT_EMAIL` (currently `srntt.treasurefantasy@gmail.com`, as provided by the owner). **Verify it with the institute and change it if needed.**
 4. Select `authorizeMail` in the function dropdown > **Run**. Review and allow the permissions (send email as you; Google may show "unverified app" because it is your own script: Advanced > Go to project). A test email is sent to the recipient.
 5. **Deploy > New deployment > Web app**. Execute as: **Me**. Who has access: **Anyone**. Deploy and copy the URL ending in `/exec`.
 6. Paste it into `js/config.js` as `GOOGLE_SCRIPT_URL`, then publish the website.

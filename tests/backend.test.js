@@ -20,7 +20,7 @@ const t = (n, c) => { c ? pass++ : fail++; console.log((c ? 'PASS ' : 'FAIL ') +
 let r = run({});
 let o = r.post(good);
 t('valid -> success + ref', o.success && /^ENQ-/.test(o.referenceId));
-t('one email to configured recipient', r.sent.length == 1 && r.sent[0].to == 'kumawat_palak@yahoo.com');
+t('one email to configured recipient', r.sent.length == 1 && r.sent[0].to == 'srntt.treasurefantasy@gmail.com');
 t('subject has name', r.sent[0].subject.startsWith('New NTT Admission Enquiry - Asha Verma'));
 t('html escapes user input', !r.sent[0].htmlBody.includes('<b>x</b>') && r.sent[0].htmlBody.includes('&lt;b&gt;'));
 t('replyTo applicant', r.sent[0].replyTo == 'asha@example.com');
